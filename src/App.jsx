@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Service from './components/Service';
 import Client from './components/Client';
 import Question from './components/Question';
+import Card from './components/Card';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Service/>
       <Client/>
       <Question/>
+      <Card/>
     </div>
   );
 }
