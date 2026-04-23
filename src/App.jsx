@@ -5,6 +5,7 @@ import Service from './components/Service';
 import Client from './components/Client';
 import Question from './components/Question';
 import Card from './components/Card';
+import Subscribe from './components/Subscribe';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Client/>
       <Question/>
       <Card/>
+      <Subscribe/>
     </div>
   );
 }
