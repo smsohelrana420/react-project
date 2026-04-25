@@ -1,10 +1,11 @@
 import React from 'react'
+import SubImg from "../assets/subscribe-bg.png"
 
 const Subscribe = () => {
   return (
     <section className='my-10 sm:my-16 md:my-20 lg:my-32'>
       <div className="container  bg-lime-950">
-        <div className='bg-[url("src/assets/subscribe-bg.png")] bg-no-repeat bg-left py-10 sm:py-16 md:py-20  sm:flex justify-center items-center text-white gap-10 sm:gap-16 md:gap-20 lg:gap-32'>
+        <div style={{backgroundImage:`url(${SubImg})`}} className=' bg-no-repeat bg-left py-10 sm:py-16 md:py-20  sm:flex justify-center items-center text-white gap-10 sm:gap-16 md:gap-20 lg:gap-32'>
           <div className='text-center mb-10 sm:mb-0 sm:border-r-2 sm:pr-28'>
             <h2 className='text-xl'>Newsletter Subscription</h2>
             <p>

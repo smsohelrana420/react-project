@@ -6,6 +6,7 @@ import Client from './components/Client';
 import Question from './components/Question';
 import Card from './components/Card';
 import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Question/>
       <Card/>
       <Subscribe/>
+      <Footer/>
     </div>
   );
 }
